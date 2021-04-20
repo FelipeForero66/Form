@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.encabezado{
+    background-color: #1CD1B0;
+    font-weight: bold;
+}
+  
+.imagenSuperior{
+    position:absolute;
+    height: 50px; 
+}
+
+.descuento{
+    margin: 0;
+}
+
+.supermarket {
+    margin: 0;
+    margin-left: 70px;
+}
+
+#tienda{
+    background-color: #00669F;
+    font-size: 40px;
+    color: white;
+}
+
+.campo{
+    margin: 10px 320px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.login{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.ingresar{
+    height: 30px;
+    background-color: #1CD1B0 ;
+    width: 350px;
+    border-radius: 50px;
+    border-color: transparent;
+    margin-left: 0 px;
+    
+}
+
+.ultimo{
+    background-color: #00669F;
+    color: white;
+   margin-top: 25px;
+   margin-top: 200px;
+   text-align: center;
+   padding: 30px;
+   height: 20px;
+}
+
+#email{
+    width: 350px;
+    height: 30px;
+    border: solid 1px grey;
+}
+
+#password{
+    width: 350px;
+    height: 30px;
+    border: solid 1px grey;
+}
+
+#parrafoFinal{
+    margin-left: 100px;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.cuenta{
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+h3{
+    font-size: 62px;
+    margin-bottom: 0;
+    margin-right: 85px;
+}
+
+#nombre{
+    width: 350px;
+    height: 30px;
+    border: solid 1px grey;
+}
+
+#pais{
+    width: 350px;
+    height: 30px;
+    border: solid 1px grey;
+}
+
+.resetear{
+    background-color: #888888;
+    color: white;
+    border-radius: 50px;
+    border-color: transparent;
+    width: 175px;
+}
+
+.Entrar{
+    background-color: #1CD1B0;
+    color:black;
+    border-radius: 50px;
+    border-color: transparent;
+    width: 175px;
+}
+
+#pais{
+    width: 357px;
+    height: 32px;
+    border: solid 1px grey;
+    color:grey;
+}
+
+.pie{
+    background-color: #00669F;
+    color: white;
+   margin-top: 25px;
+   margin-top: 120px;
+   text-align: center;
+   padding: 30px;
+   height: 20px;
+}

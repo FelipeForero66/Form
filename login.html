@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Formulario</title>
+    <header> 
+        <div class= "encabezado">
+            <p class="descuento">20% de descuento en todos los productos </p>
+        </div>
+        <div id="tienda">
+            <img class="imagenSuperior" src="./IMG/Tienda.png" alt="supermarket model">
+            <p class="supermarket">Nombre tienda</p>
+        </div>
+    </header>
+</head>
+<body>
+    <div class="login">
+        <h3>Login</h3>
+        <form action="contacto.html" method="POST">
+                <div class="campo">
+                    <input type="email" id="email" name="email" placeholder="usuario" required minlength="5">
+                </div>
+                    <div class="campo">
+                        <input type="password" id="password" name="password" placeholder="contraseña">
+                    </div>
+                    <div class="boton">
+                        <input class="ingresar" type="submit" value= "Entrar">
+                        <p class="cuenta"><a href="register.html">¿no tienes una cuenta?</a> Registrate</p> 
+                    </div>   
+        </form>       
+    </div>
+    <footer>
+        <div class="ultimo">
+            <p id="parrafoFinal">Todos los derechos reservados a FRONT-END</p>
+        </div>
+    </footer>
+</body>
+</html>

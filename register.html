@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Formulario</title>
+    <header> 
+        <div class= "encabezado">
+            <p class="descuento">20% de descuento en todos los productos </p>
+        </div>
+        <div id="tienda">
+            <img class="imagenSuperior" src="./IMG/Tienda.png" alt="supermarket model">
+            <p class="supermarket">Nombre tienda</p>
+        </div>
+    </header>
+</head>
+<body>
+    <div class="login">
+        <h3>Registrate</h3>
+        <form action="contacto.html" method="POST">
+                <div class="campo">
+                    <input type="nombre" id="nombre" name="nombre" placeholder="usuario" required minlength="5">
+                </div>
+
+                <div class="campo">
+                    <input type="email" id="email" name="email" placeholder="email" required minlength="5">
+                </div>
+
+                <div class="campo">
+                    <input type="password" id="password" name="password" placeholder="contraseña">
+                </div>
+
+                <div class="campo">
+                    <select id="pais" name="pais">
+                        <option>------</option>
+                        <option>Colombia</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>Ecuador</option>
+                        <option>Venezuela</option>
+                      </select>
+                </div>
+
+                <div class="boton">
+                        <input class="resetear" type="reset" value= "Resetear"> 
+                        <input class="Entrar" type="submit" value= "Entrar"> 
+                        <p class="cuenta"><a href="login.html">¿tienes una cuenta?</a> ingresar</p> 
+                    </div>   
+        </form>       
+    </div>
+    <footer>
+        <div class="pie">
+            <p id="parrafoFinal">Todos los derechos reservados a FRONT-END</p>
+        </div>
+    </footer>
+</body>
+</html>
